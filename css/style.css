@@ -1,0 +1,158 @@
+@import url(//fonts.googleapis.com/css?family=BenchNine:400);
+@import url(//fonts.googleapis.com/css?family=BenchNine:300);
+@import url(//fonts.googleapis.com/css?family=BenchNine:700);
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic);
+
+/*body { background: blueviolet }
+body::after{ content: "I don't know what you are using to click" }
+
+@media (pointer: coarse) {
+  body { background: crimson }
+  body::after{ content: "Your primary input mechanism is a finger" }  
+}
+
+@media (pointer: fine) {
+  body { background: goldenrod }
+  body::after{ content: "Your primary input mechanism is a mouse" }
+}*/
+
+
+
+body {width: 99%;}
+
+ a {
+       text-decoration: none;
+}
+
+a:link {
+    transition: all 0.3s ease; /*Aplicamos um efeito de transição*/
+    text-decoration: none; /*Removemos o sublinhado*/
+    color: #000; /*Mudamos a cor para Azul*/
+  }
+  
+a:hover {
+  color: #1D723A; /*Mudamos a cor para Rosa*/
+}
+
+ /* Quando clicamos no link */
+a:active {
+    color: #75AF3F; /*Mudamos a cor para Verde*/
+}
+
+.container-item3 .faixaCorpo	{
+	width: 100%;
+    background-color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 80px;
+	border-radius: 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: rgb(128 128 128 / 80%) 0px 0px 1em;
+	
+	/*border: 1px solid #1D723A;*/
+}
+
+
+.container-item3 .faixaCorpo .btn {
+  z-index: 1000;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+
+.container-item3 .faixaCorpo .textoConteinerItem3 {
+	
+	font-size: 20px;
+    color: #000;
+    margin-left: 42%;
+    margin-top: -2.3%;
+	
+}
+
+.titulosItensLocalizacao {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 45%;
+    font-size: 35px;
+}
+
+
+.mapa {
+	width: 110%;
+	height: 400px;
+	border:0;
+}
+
+/* max device width */
+@media (max-width: 1100px) {
+	
+	.titulosItensLocalizacao {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 39%;
+    font-size: 70px;
+}
+
+
+
+.container-item3 .faixaCorpo {
+    width: 123%;
+    background-color: #fff;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 116px;
+    border-radius: 10px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    box-shadow: rgb(128 128 128 / 80%) 0px 0px 1em;
+    /* border: 1px solid #1D723A; */
+}
+
+.container-item3 .faixaCorpo .btn {
+z-index: 1000;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 19px 50px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 13.2%;
+    margin-top: 2%;
+}
+
+.container-item3 .faixaCorpo .textoConteinerItem3 {
+    font-size: 40px;
+    color: #000;
+    margin-left: 35%;
+    margin-top: -3.5%;
+}
+
+
+.mapa {
+	width: 100%;
+	height: 400px;
+	border:0;
+	margin-left: 2%;
+}
+
+}
