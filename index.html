@@ -5,6 +5,7 @@
 		<meta name="format-detection" content="telephone=no">
 		<link rel="icon" href="img/favicon.ico">
 		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/carrossel.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/style.css">
 		<title>INFORCE</title>
@@ -30,8 +31,41 @@
 		</div>				
 	</head>
 	<body>
-	
-	BODY
+		<!--ITEM 1!-->
+	<div class="container-carrossel">
+			<div class="row-carrossel">
+					<div class="slideshow-container">
+							<div class="mySlides fade">
+								<div id="titulocarrossel1" class="titulocarrossel"></div>
+								<img id="carrossel1" src="" style="width:100%; border-radius: 5px;">
+								<button class="btn success" onclick="actionLink();">ACESSAR 1</button>
+							</div>
+							
+							<div class="mySlides fade">
+								<div id="titulocarrossel2"  class="titulocarrossel"></div>
+								<img id="carrossel2" src="" style="width:100%; border-radius: 5px;">
+								<button class="btn success" onclick="actionLink();">ACESSAR 2</button>
+							</div>
+							
+							<div class="mySlides fade">
+								<!--div class="numbertext">3 / 3</div!-->
+								<img id="carrossel3" src="img/slide2.jpg" style="width:100%; border-radius: 5px;">
+								<button class="btn success" onclick="actionLink();">ACESSAR 3</button>
+							</div>
+							<div class="iconesCarrossel">
+								<a class="prev" onclick="plusSlides(-1)"><img src="img/voltar.png" class="imgVoltar" ></a>
+								<a class="next" onclick="plusSlides(1)"><img src="img/avancar.png" class="imgAvancar" ></a>
+							</div>
+							<br>
+							<!--div style="text-align:center">
+								<span class="dot" onclick="currentSlide(1)"></span> 
+								<span class="dot" onclick="currentSlide(2)"></span> 
+								<span class="dot" onclick="currentSlide(3)"></span> 
+							</div!-->	
+				</div>
+			</div>
+	</div>
+	<!-- TERMINO ITEM 1 !-->
 </body>
 <footer>
 	<div class="container">
