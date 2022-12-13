@@ -1,0 +1,221 @@
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+
+.imgVoltar, .imgAvancar	{
+	width:20%;
+	
+}
+
+
+.slideshow-container {
+  max-width: 67%;
+  position: relative;
+  margin: auto;
+
+}
+
+.iconesCarrossel {
+	
+	
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+
+  padding: 16px;
+  margin-top: -22px;
+
+  font-weight: bold;
+
+}
+
+
+.next {
+  right: -24%;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+
+.prev:hover, .next:hover {
+  
+  opacity: 0.5;
+}
+
+
+
+.btn:hover {
+  
+  background-color: #75AF3F;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #1D723A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #75AF3F;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.success {
+  background-color: #1D723A;
+}
+
+.btn {
+  z-index: 1000;
+  position: relative;
+	
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5%;
+  margin-left: 42.2%;
+    margin-top: -3%;
+}
+
+.titulocarrossel {
+	font-size: 25px;
+}
+
+/* max device width */
+@media (max-width: 1100px) {
+	* {box-sizing: border-box}
+
+.mySlides {display: none}
+
+.imgVoltar, .imgAvancar	{
+	width:50%;
+	
+}
+
+ .imgAvancar	{
+ margin-left: 53%;
+	
+}
+
+.container-carrossel {
+	margin-left: 2%;
+    /* background-color: blue; */
+    width: 119%;
+    margin-top: 12%;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+.iconesCarrossel {
+	padding-left: 0%;
+	
+}
+
+.prev, .next {
+  cursor: pointer;
+
+	/*background-color: red;*/
+}
+
+
+.next {
+  right: 0%;
+  border-radius: 3px 0 0 3px;
+  /*background-color: red;*/
+}
+
+
+
+
+.prev:hover, .next:hover {
+  
+  opacity: 0.5;
+}
+
+
+
+.btn:hover {
+  
+  background-color: #75AF3F;
+}
+
+
+
+.dot {
+  cursor: pointer;
+ height: 30px;
+    width: 30px;
+    margin: 61px 62px 19px 76px;
+  background-color: #1D723A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #75AF3F;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.success {
+  background-color: #1D723A;
+}
+
+.btn {
+ z-index: 1000;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 30px 65px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 35.2%;
+    margin-top: -4%;
+}
+
+.titulocarrossel {
+	font-size: 50px;
+	color: #000;
+}
+	
+	
+}
